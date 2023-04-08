@@ -20,7 +20,7 @@ const App = () => {
             className="Movie-image"
             src="${Process.env.REACT_APP_BASEIMGURL}/${movie.poster_path}"
           />
-          <div className="Movie-date">{movie.release_data}</div>
+          <div className="Movie-date">release date : {movie.release_data}</div>
           <div className="Movie-rate">{movie.vote_average}</div>
         </div>
       );
